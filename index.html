@@ -20,6 +20,18 @@
       opacity: 1 !important;
       font-weight: 700 !important;
     }
+    .max-width-400 {
+    max-width: 400px;
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    }
+    .image-caption {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px; /* Adjust this value to move the caption down */
+}
   </style>
 </head>
 
@@ -119,8 +131,18 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="overview">Overview of Metroshuttle</h2>
-            <img class="image center max-width-400 add-top-margin-small" src="img/overview.jpg">
-            <img class="image center max-width-400 add-top-margin-small" src="img/overview2.jpg">
+            <div class="flex-row-space-between">
+              <div class="flex-item flex-column">
+                <img class="image max-width-400" src="img/overview.jpg">
+                <p class="image-caption"><b>User Registration</b></p>
+              </div>
+              <div class="flex-item flex-column">
+                <a target="_blank" class="image max-width-400">
+                  <img src="img/overview2.jpg">
+                </a>
+                <p class="image-caption"><b>Profile</b></p>
+              </div>
+            </div>
             <p class="text">
               Metro-shuttle is a children's transportation app designed to alleviate parental concerns by providing a secure, user-friendly platform for real-time tracking, timely notifications, and peace of mind.
             </p>
@@ -183,8 +205,18 @@ By integrating these features, <b>Metro-shuttle</b> provides a comprehensive sol
           Easily add as many children as you need to your <b>Metroshuttle</b> account. For each child,
  specify their school, and any special needs or instructions. Clearly define your child's pick-up and drop-off locations, including specific addresses, landmarks, or contact persons. You can also set custom names for these locations for easy reference.
           </p>
-          <img class="image center max-width-400 add-top-margin-small" src="img/child_info.jpg">
-          <img class="image center max-width-400 add-top-margin-small" src="img/parent1.jpg"> 
+          <div class="flex-row-space-between">
+            <div class="flex-item flex-column">
+              <img class="image max-width-400" src="img/parent1.jpg">
+              <p class="image-caption"><b>Manage requests</b></p>
+            </div>
+            <div class="flex-item flex-column">
+              <a target="_blank" class="image max-width-400">
+                <img src="img/child_info.jpg">
+              </a>
+              <p class="image-caption"><b>Child info</b></p>
+            </div>
+          </div>
       </div>
       
       
@@ -244,18 +276,8 @@ By integrating these features, <b>Metro-shuttle</b> provides a comprehensive sol
           <li><b>Vehicle Inspection</b>: All vehicles used for <b>Metroshuttle</b> services undergo mandatory inspections to meet safety standards.</li>
         </ul>
       </div>
-        <div class="flex-row-space-between">
-          <div class="flex-item flex-column">
-            <img class="image max-width-400" src="img/image1.jpg">
-            <p class="image-caption"><b>Child Management</b></p>
-          </div>
-          <div class="flex-item flex-column">
-            <a target="_blank" class="image max-width-400">
-              <img src="img/image1.jpg">
-            </a>
-            <p class="image-caption"><b>Check-in/Check-out Process</b></p>
-          </div>
-        </div>
+      <img class="image max-width-400" src="img/driver1.jpeg">
+      <p class="image-caption"><b>Child Management</b></p>
       <div>
         <h3 id="images-and-image-button">Routes Planning and Optimization</h3>
         <p class="text"><b>Metroshuttle’s</b> advanced technology empowers drivers with efficient route planning and optimization capabilities:</p>
@@ -265,11 +287,12 @@ By integrating these features, <b>Metro-shuttle</b> provides a comprehensive sol
           <li><b>Efficient Dispatch</b>: Intelligent dispatch system assigns rides to drivers based on their location, availability, and passenger preferences.</li>
           <li><b>Navigation Assistance</b>: Turn-by-turn navigation guidance is provided to drivers, ensuring accurate and timely arrival at pick-up and drop-off points.</li>
         </ul>
+        <br>
       </div>
         <div class="flex-row-space-between">
           <div class="flex-item flex-column">
             <img class="image max-width-400" src="img/image1.jpg">
-            <p class="image-caption"><b>Child Management</b></p>
+            <p class="image-caption"><b>Driver Registration</b></p>
           </div>
           <div class="flex-item flex-column">
             <a target="_blank" class="image max-width-400">

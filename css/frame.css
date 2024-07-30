@@ -474,11 +474,12 @@ hr {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: flex;
+  
 }
 
 .image.center {
   align-self: center;
+  
 }
 
 .image img,
